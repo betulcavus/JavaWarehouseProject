@@ -9,7 +9,6 @@ public class urunTanimlama {
     private String raf;
 
     public urunTanimlama() {
-
     }
 
     public urunTanimlama(String urunIsmi, String uretici, String birim, int urunMiktar, String raf) {
