@@ -1,6 +1,6 @@
 package warehouseproject;
 
-public class urunTanimlama {
+public class UrunTanimlama {
 
     private String urunIsmi;
     private String uretici;
@@ -8,12 +8,10 @@ public class urunTanimlama {
     private int urunMiktar;
     private String raf;
 
-    public urunTanimlama() {
-
+    public UrunTanimlama() {
     }
 
-    public urunTanimlama(String urunIsmi, String uretici, String birim, int urunMiktar, String raf) {
-
+    public UrunTanimlama(String urunIsmi, String uretici, String birim, int urunMiktar, String raf) {
         this.urunIsmi=urunIsmi;
         this.uretici=uretici;
         this.birim=birim;
@@ -31,7 +29,6 @@ public class urunTanimlama {
     }
 
     public String getUretici() {
-
         return uretici.toLowerCase();
     }
 
@@ -48,12 +45,10 @@ public class urunTanimlama {
     }
 
     public int getUrunMiktar() {
-
         return urunMiktar;
     }
 
     public int setUrunMiktar(int urunMiktar) {
-
         this.urunMiktar = urunMiktar;
         return urunMiktar;
     }
@@ -69,12 +64,11 @@ public class urunTanimlama {
     @Override
     public String toString() {  //obje değerlerini düzenli yazmak için
         return "urunleriniz" +
-                ", urunIsmi='" + urunIsmi + '\'' +
+                ", urun ismi='" + urunIsmi + '\'' +
                 ", uretici='" + uretici + '\'' +
                 ", birim='" + birim + '\'' +
-                ", Miktar=" + urunMiktar + '\'' +
+                ", miktar=" + urunMiktar + '\'' +
                 ", raf=" + raf+ '\'' + '\n' ;
     }
-
 
 }
